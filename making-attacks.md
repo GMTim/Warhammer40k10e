@@ -25,11 +25,11 @@ title: Warhammer 40k - 10th Edition - Making Attacks
 >- An unmodified Wound roll of 1 always fails.
 >- A Wound roll can never be modified by more than -1 or +1.
 >
-> Strength > Toughness x2: 2+  
+> Strength => Toughness x2: 2+  
 > Strength > Toughness: 3+  
 > Strength = Toughness: 4+  
 > Strength < Toughness: 5+  
-> Strength < Toughness /2: 6+
+> Strength =< Toughness /2: 6+
 
 ## 3. Allocate Attack
 >- If a model in the target unit has already lost any wounds or had other attacks allocated to it this phase, the attack must be allocated to that model.
