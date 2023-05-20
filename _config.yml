@@ -1,0 +1,7 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      title: "Warhammer 40k - 10th Edition"
+#markdown: GFM

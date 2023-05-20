@@ -1,0 +1,36 @@
+:root {
+    --main-color: #000000;
+    --secondary-color: rgba(255, 255, 255, 0.8);
+    --lowlight-color: rgba(0, 0, 0, 0.6);
+    --text-color: #000000;
+    --background: var(--accent-color);
+    --code: var(--lowlight-color);
+    --focus: rgba(0, 0, 0, 0.8);
+    --text-bright: var(--text-color);
+}
+html {
+    background-color: var(--main-color);
+}
+body {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 3.0rem;
+    padding: 1.5rem;
+}
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+a:hover {
+    color: var(--lowlight-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color)
+}
+.subtext {
+    font-size: 0.8em;
+    color: var(--lowlight-color);
+}
+.city-image {
+    height: 8rem;
+}
