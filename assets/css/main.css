@@ -34,3 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 .city-image {
     height: 8rem;
 }
+.green-strat {
+    background-color: green;
+    padding: .2em;
+    border-radius: .5em;
+}
+.blue-strat {
+    background-color: blue;
+    padding: .2em;
+    border-radius: .5em;
+}
+.red-strat {
+    background-color: darkred;
+    padding: .2em;
+    border-radius: .5em;
+}

@@ -1,0 +1,42 @@
+<div class="row {{ include.class }}">
+    <div class="col col-md-6">
+        <h3 id="{{ include.linkname }}">{{ include.name }}</h3>
+    </div>
+    <div class="col col-md-4"></div>
+    <div class="col col-md-2">
+        <h3 class="text-center">{{ include.cost }}</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <strong>{{ include.type }}</strong>
+    </div>
+</div>
+{% if include.when %}
+<div class="row">
+    <div class="col">
+        <strong>When: </strong>{{ include.when }}
+    </div>
+</div>
+{% endif %}
+{% if include.target %}
+<div class="row">
+    <div class="col">
+        <strong>Target: </strong>{{ include.target }}
+    </div>
+</div>
+{% endif %}
+{% if include.effect %}
+<div class="row">
+    <div class="col">
+        <strong>Effect: </strong>{{ include.effect }}
+    </div>
+</div>
+{% endif %}
+{% if include.restrictions %}
+<div class="row">
+    <div class="col">
+        <strong>Restrictions: </strong>{{ include.restrictions }}
+    </div>
+</div>
+{% endif %}
